@@ -1,10 +1,16 @@
-.App {
+.App, .button {
   text-align: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.actions{
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -15,11 +21,10 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 8vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   font-size: calc(10px + 2vmin);
   color: white;
 }
